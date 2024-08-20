@@ -77,7 +77,7 @@ console.log(typeof product)
 
 operators in JS
 
-// equal to ==
+ equal to ==
 // not equal to !=
 // equal to & type ===
 // not equal to & type !==

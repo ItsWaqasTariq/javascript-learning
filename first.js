@@ -389,11 +389,18 @@
 //     console.log(no**2)
 // }
 
+// <<<<<<< main
 // let numbers=[22,3,4,55,66]
 // const squareFunc=(eachnum)=>{
 //     console.log(eachnum**2)
 // };
 // numbers.forEach(squareFunc);
+// =======
+//  equal to ==
+// not equal to !=
+// equal to & type ===
+// not equal to & type !==
+// >>>>>>> Jscript
 
 
 // marks=[66,55,88,77,64,35]

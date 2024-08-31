@@ -258,21 +258,160 @@
 // console.log(average)
 
 //10% off
-let colors =[250,645,300,900,50]
-// let outp;
-for(let prise of colors){
-   off= prise/10;
-//    console.log(off)
-   remaining=prise-off
-   console.log(remaining)
-}
+// let colors =[250,645,300,900,50,100]
+// // let outp;
+// for(let prise of colors){
+//    off= prise/20;
+// //    console.log(off)
+//    remaining=prise-off
+//    console.log(remaining)
+// }
 // console.log(colors)
 
+// //array methods
+// let fooditems=["apple","orange","grapes"];
+// console.log(fooditems)
+// fooditems.push("mango","jamun")
+// console.log(fooditems)
+// let del=fooditems.pop();
+// console.log(fooditems)
+// console.log(del)
+// console.log(fooditems.toString())
+// console.log(fooditems)
+
+// let marks=[23,33,55,22,43]
+// console.log(marks)
+// console.log(marks.toString())
+// let joining=fooditems.concat(marks)
+// console.log(joining)
+// // joining.unshift(786)
+// joining.shift();
+// console.log(joining)
+// console.log(joining.slice(0,5))
+//  let marks=[43,54,34,87,56,47]
+//  console.log(marks)
+//  marks.splice(marks.length-3,0,"77")
+//  console.log(marks)
+
+// let companies=["microsoft","linkdin","youtube","facebook",
+//     "uber"]
+//     console.log(companies)
+//     // companies.shift()
+//     // console.log(companies)
+//     companies.splice(2,1,"instagram")
+//     companies.splice(companies.length-2,0,"Amazon")
+//     console.log(companies)
+
+// function callrer(){
+//   return console.log( "fastly cover function topic")
+// }
+// callrer()
+// // console.log(a)
+
+// //parameter and argument
+// function myfunction(parameter){
+//     console.log(parameter)
+// }
+// myfunction("argument")
+// myfunction()
+// function sum(x,y){
+    // z=x+y;
+    // return z
+    // console.log(z) 
+// }
+// let output=sum(3,4)
+// console.log(output)
+// let anotheroutput=sum(5,6)
+// console.log(anotheroutput)
+// let arrowFunc=(x,y)=>{
+//     z=x+y;
+//     // return z
+//     console.log(z)
+
+// };
+// let output=arrowFunc(2,3)
+// // console.log(output)     
+
+// function sum(x,y){
+//     return x+y;
+// };
+// let output=sum(2,3)
+// console.log(output)
+
+// function sum2(x,y){
+    
+// console.log(x+y)
+// }
+// sum2(2,4)
+
+// const arrowMul=(x,y)=>{
+//  return x*y;
+// };
+// let output3=arrowMul(4,5)
+// console.log(output3)
+
+// const arrowSum2=(x,y)=>{
+    
+// console.log(x+y)
+// }
+// arrowSum2(33,4)
+
+// let str="discovering javascript";
+// count=0;
+// for(let word of str){
+//     if(word==="a"||word==="e"||word==="i"||word==="o"||word==="u"){
+//         count++;
+//         // console.log(word)
+//         // console.log(count)   
+//     }
+//     // console.log(count)
+    
+// }
+// console.log(count)
+//male funtion of above 
+// const countVowel=(string)=>{
+//     count=0;
+//     for(let word of string){
+       
+// if(word==="a"||word==="e"||word==="i"||word==="o"||word==="u"){
+//                     count++;
+                
+//     }
+// }
+// console.log(count);
+// };
+// countVowel("learning")
+// countVowel("javascriptaaa")
+
+// let num=[1,2,3,4,5]
+// // num.forEach()
+// for(let no of num){
+//     console.log(no**2)
+// }
+
+// let numbers=[22,3,4,55,66]
+// const squareFunc=(eachnum)=>{
+//     console.log(eachnum**2)
+// };
+// numbers.forEach(squareFunc);
 
 
+// marks=[66,55,88,77,64,35]
+// let output=marks.filter((mark)=>{
+// //  if(mark>=70){return true;}
+// //     else {return false}
+//     return mark>70
+// });
+// console.log(output)
 
-
-
-
+// let input=prompt("enter last array element")
+// // console.log(input)
+// arr=[]
+// for(let i=1;i<=input;i++){
+//     arr[i-1]=i;
+// }
+// // console.log(arr)
+// let output=arr.reduce((prev,curr)=>{return prev+curr});
+// console.log(output)
 
 
